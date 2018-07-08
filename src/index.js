@@ -6,7 +6,7 @@ import thunk from 'redux-thunk'
 import reducer from './shared/reducers';
 import App from './App';
 import { HashRouter as Router } from 'react-router-dom'
-
+// testing
 const middlewares = [thunk];
 
 const store = createStore(reducer, applyMiddleware(...middlewares));
